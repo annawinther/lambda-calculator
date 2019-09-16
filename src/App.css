@@ -7,6 +7,7 @@
     padding-bottom: 25px;
 }
 .display {
+    margin: 0 auto;
     margin-top: 25px;
     height: 100px;
     width: 450px;
@@ -20,3 +21,50 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .buttonContainer {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+.numbersSpecial {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.operatorContainer {
+    max-width: 200px;
+    width: 100%;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: 0px solid black;
+    border-bottom: 1px solid blue;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.numberButton {
+    background-color: rgba(0, 81, 187, 0.842);
+    color: white;
+    /* font-size: 2rem; */
+}
+.numberButton:nth-child(10) {
+    width: 190px;
+}
+
+.operatorButton, .specialButton {
+    background-color: rgba(24, 156, 243, 0.842);
+    color: white;
+    /* font-size: 2rem; */
+}
+
+.specialButton {
+    font-size: 6rem;
+}
